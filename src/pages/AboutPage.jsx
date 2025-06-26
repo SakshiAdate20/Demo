@@ -6,7 +6,7 @@ const AboutPage = () => {
     return(
   <div id="abc">
     <Header/> 
-  <div style={{ padding: '1rem' }} className="home-scroll-container">
+  <div style={{ padding: '1rem' }} className="about-scroll-container">
    
     <h1 className='h1'>About Vivekanand College</h1>
     <p>Vivekanand College stands as a beacon of knowledge and integrity,committed to delivering transformative education since its inception in 1980. Located in the bustling heart of Kolhapur, our college has consistently strived to uphold the highest standards of academic rigor and ethical values.</p>

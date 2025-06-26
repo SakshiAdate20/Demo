@@ -11,6 +11,8 @@ import ContactPage from './pages/ContactPage';
 import CoursesPage from './pages/CoursesPage';
 
 import NotFoundPage from './pages/NotFoundPage';
+import ChatbotComponent from './components/Chatbot/ChatbotComponent';
+
 
 //import DeveloperInfoPopup from './components/DeveloperInfo/DeveloperInfoPopup';
 
@@ -36,8 +38,10 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
+      <ChatbotComponent/>
     
     </Router>
+   
     </>
   );
 }

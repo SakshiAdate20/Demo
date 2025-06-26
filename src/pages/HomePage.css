@@ -19,6 +19,8 @@
   margin: 2rem auto;
   max-width: 1200px;
   box-sizing: border-box;
+  margin-top: 20px;
+  
 }
 
 .flex-row {
@@ -117,6 +119,7 @@ li {
 .banner-container * {
   position: relative;
   z-index: 1;
+ 
 }
 
 .banner-container h1 {
@@ -212,3 +215,4 @@ div{
   display: block;
   unicode-bidi: isolate;
 }
+

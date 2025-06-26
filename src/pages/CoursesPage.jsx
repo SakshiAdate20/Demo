@@ -6,7 +6,7 @@ const CoursesPage = () => {
     return(
   <div id="demo">
     <Header/>
-  <div style={{ padding: '1rem' }} className="home-scroll-container">
+  <div style={{ padding: '1rem' }} className="courses-scroll-container">
    
     <h1 className='h1'>Our Academic Programs</h1>
     <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>

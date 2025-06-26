@@ -7,7 +7,7 @@ const ContactPage = () => {
       <div class="demo">
 
       <Header/>
-  <div style={{ padding: '1rem' }} className="home-scroll-container">
+  <div style={{ padding: '1rem' }} className="contact-scroll-container">
      
     <h1 className='h1'>Contact Us</h1>
     <p>We'd love to hear from you! Whether you have questions about admissions , programs, or campus life, our team is here to help.</p>
@@ -39,7 +39,7 @@ const ContactPage = () => {
 
     <h2>Send Us a Message</h2>
     <form id="contactForm" className='form-container'>
-      <input type="text"  name="name" placeholder="Your Name" required  />
+     <input type="text"  name="name" placeholder="Your Name" required  />
       <input type="email" name="email" placeholder="Your Email" required />
       <input type="text" name="subject" placeholder="Subject" required />
       <textarea className='formfield' name="message" rows="3" placeholder="Your Message" required></textarea>

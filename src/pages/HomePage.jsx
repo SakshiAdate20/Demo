@@ -10,9 +10,7 @@ const HomePage = () => {
     <div id="pqr">
       <Header/>
     <div className="home-scroll-container">
-      
-    
-      <div className="banner-container">
+       <div className="banner-container">
         <p className="home-title">Welcome to Vivekanand <span id="ab">College!</span> </p>
         <p>Your journey to excellence starts here.</p>
         <div className="button-wrapper">
