@@ -25,7 +25,7 @@ function App() {
   return (
     <> 
     
-
+    <div className='full'>
     <Router>
      
       <main style={{ padding: '1rem' }}>
@@ -41,7 +41,7 @@ function App() {
       <ChatbotComponent/>
     
     </Router>
-   
+   </div>
     </>
   );
 }

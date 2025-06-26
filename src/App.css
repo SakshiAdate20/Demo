@@ -1,9 +1,9 @@
-
+/* 
 .body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: hsl(174, 26%, 93%);
+  background: hwb(173 13% 38%);
 }
 
 .header {
@@ -28,12 +28,12 @@ nav a {
 }
 
 .container {
-   margin: 0 auto; /* Centers the content */
-  max-width: 900px; /* Adjust as needed */
+   margin: 0 auto;
+  max-width: 900px; 
   background: #e5edee;
   padding: 20px;
   border-radius: 8px;
-  text-align: center; /* Centers text inside */
+  text-align: center; 
   overflow-y: hidden;
 
 }
@@ -84,8 +84,9 @@ body {
  display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60h; /* Ensures full height */
-  flex-direction: column; /* Keeps elements stacked */
+  min-height: 60h;
+  flex-direction: column; 
+  
 
 }
 
@@ -166,5 +167,18 @@ input, textarea {
 
 textarea {
     resize: none;
-}
+} */
 
+
+.fullscreen {
+  /* height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

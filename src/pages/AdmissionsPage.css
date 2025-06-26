@@ -51,8 +51,8 @@ h2 {
 #xyz{
    justify-content: center;
   text-align: center;
-  width: 80%;
   margin: 0 auto;
+  background-color: aqua;
 }
 #note-tr1{
   background-color: #f8f9fa;

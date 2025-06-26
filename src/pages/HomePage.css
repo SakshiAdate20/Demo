@@ -172,9 +172,10 @@ li {
 #pqr{
   justify-content: center;
   text-align: center;
-  width: 80%;
+ 
   margin: 0 auto;
   align-items: centers;
+  background-color: aqua;
 }
 span{
   display: block;
